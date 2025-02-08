@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segredo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Querida Karina</strong>
+                        <p>
+                            Veja sempre que precisar de algo que console ou te encoraje.
+                            Você é a pessoa mais adorável e gentil do mundo, com certeza já pensei inúmeras vezes em você só hoje. Meu grande amor, espero que seu dia possa melhorar e não duvido que você deu o seu melhor. Sinto orgulho de você.
+                            Amo-te 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+    
+</body>
+</html>
+
